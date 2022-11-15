@@ -1,2 +1,72 @@
-.App {
+.section {
+  width: 100vh;
+  margin: 5rem auto;
+}
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+}
+.title span {
+  color: brown;
+  padding: 1rem;
+}
+
+.section-center {
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: flex;
+  width: 80vw;
+  height: 450px;
+  max-width: 800px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+article h4 {
+  color: brown;
+  font-size: 1.3rem;
+}
+.title {
+  color: #333;
+}
+.person-img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 4px solid hsl(210, 31%, 80%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.prev,
+.next {
+  outline: none;
+  border: none;
+  background: rgb(11, 155, 233);
+  color: #fff;
+  position: absolute;
+  top: 200px;
+  padding: 0.2rem;
+  display: grid;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.prev {
+  left: 0;
+}
+.next {
+  right: 0;
+}
+article {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s linear;
+}
+.icon {
+  font-size: 2.5rem;
+  color: brown;
 }
